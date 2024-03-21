@@ -33,7 +33,7 @@ export default function Page() {
           <div>
             
             <p>
-              I'm a <span>Data Scientist</span> with a strong passion for <span>Artificial Intelligence</span> and its applications. Having spent three years as an apprentice 
+              I am a <span>Data Scientist</span> with a strong passion for <span>Artificial Intelligence</span> and its applications. Having spent three years as an apprentice 
               between <span>IMT - Télécom Saint-Étienne</span> and <span>STMicroelectronics</span>, I am eager to deepen my knowledge through a <span>PhD</span> focused on 
               <span>Artificial Intelligence</span>.
             </p>
