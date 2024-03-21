@@ -1,7 +1,8 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
  
 export const metadata: Metadata = {
-  title: 'Next.js',
+  title: 'PELLE Servan',
 }
 
 import React from 'react'
@@ -11,9 +12,14 @@ export default function Page() {
     <React.Fragment>
 
         <div id='container'>
-          <h1>Servan PELLÉ - Data Scientist</h1>
 
-          <p>Wellcome into my portfolio !</p>
+          <div id='head-container'>
+            <div>
+              <h1>Servan PELLÉ - Data Scientist</h1>
+              <p>Wellcome into my portfolio !</p>
+            </div>
+            <img src="/img/memoji.png" alt="memoji img" />
+          </div>
 
           <div>
             
@@ -40,19 +46,20 @@ export default function Page() {
           </div>
 
           <div id='sections'>
-            <div>
-              <h2>Resume</h2>
-              <img src="img/cv.jpg" alt="" />
+            <div class="container">
+              <a href="/about" class="link">Resume</a>
+              <img src="img/cv.jpg" alt="resume img" class="image" />
             </div>
 
-            <div>
-              <h2>Project</h2>
-              <img src="img/project.jpg" alt="project img" />
+            
+            <div class="container">
+              <Link href="/project" class="link">Project</Link>
+              <img src="img/project.jpg" alt="project img" class="image" />
             </div>
 
-            <div>
-              <h2>Contact</h2>
-              <img src="img/contact.jpg" alt="" />
+            <div class="container">
+              <Link href="/contact" class="link">Contact</Link>
+              <img src="img/contact.jpg" alt="contact img" class="image" />
             </div>
           </div>
           
