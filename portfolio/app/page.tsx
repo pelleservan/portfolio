@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
  
 export const metadata: Metadata = {
   title: 'PELLE Servan',
@@ -18,7 +19,15 @@ export default function Page() {
               <h1>Servan PELLÉ - Data Scientist</h1>
               <p>Wellcome into my portfolio !</p>
             </div>
-            <img src="/img/memoji.png" alt="memoji img" />
+            {/* <Image src="/img/memoji.png" alt="memoji Image" /> */}
+            <Image
+              src="/img/memoji.png"
+              width={200}
+              height={0}
+              alt="memoji"
+              style={{ height: '200px', width: 'auto', borderRadius: '50%', position: 'absolute', right: '0', top: '-50px' }}
+            />
+
           </div>
 
           <div>
@@ -46,20 +55,40 @@ export default function Page() {
           </div>
 
           <div id='sections'>
-            <div class="container">
-              <a href="/about" class="link">Resume</a>
-              <img src="img/cv.jpg" alt="resume img" class="image" />
+            <div className="container">
+              <a href="/about" className="link">Resume</a>
+              <Image
+                src="/img/cv.jpg"
+                alt="resume Image"
+                className="image"
+                height={200}
+                width={100}
+                style={{ height: '200px', width: 'auto', objectFit: 'cover', borderRadius: '10px' }}
+              />
+
             </div>
 
             
-            <div class="container">
-              <Link href="/project" class="link">Project</Link>
-              <img src="img/project.jpg" alt="project img" class="image" />
+            <div className="container">
+              <Link href="/project" className="link">Project</Link>
+              <Image 
+                src="/img/project.jpg" 
+                alt="project Image" 
+                className="image"
+                height={200}
+                width={100}
+                style={{ height: '200px', width: 'auto', objectFit: 'cover', borderRadius: '10px' }}/>
             </div>
 
-            <div class="container">
-              <Link href="/contact" class="link">Contact</Link>
-              <img src="img/contact.jpg" alt="contact img" class="image" />
+            <div className="container">
+              <Link href="/contact" className="link">Contact</Link>
+              <Image 
+                src="/img/contact.jpg" 
+                alt="contact Image" 
+                className="image"
+                height={200}
+                width={100}
+                style={{ height: '200px', width: 'auto', objectFit: 'cover', borderRadius: '10px' }}/>
             </div>
           </div>
           

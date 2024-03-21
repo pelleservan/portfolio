@@ -39,7 +39,7 @@ body {
   min-width: 400px;
   /* background-image:
     linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url('../public/img/bg.jpg'); */
+    url('../public/.Image/bg.jpg'); */
 }
 
 #header {
@@ -104,8 +104,9 @@ header {
   font-size: 30px;
 }
 
-#head-container img {
+#head-container .Image {
   height: 200px;
+  width: auto;
   border-radius: 50%;
   position: absolute;
   right: 0;
@@ -139,7 +140,7 @@ header {
   font-size: 20px;
 }
 
-#sections img {
+#sections .Image {
   height: 100%;
   object-fit: cover;
   border-radius: 0 0 10px 10px;
