@@ -7,3 +7,4 @@ export default function AboutLayout({
   }) {
     return <section className={styles.about}>{children}</section>
   }
+

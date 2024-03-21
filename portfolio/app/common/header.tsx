@@ -5,10 +5,13 @@ export default function Header() {
     return(
         <React.Fragment>
             <header>
-                <Link href="/">Home</Link>
-                <Link href="/about">About</Link>
-                <Link href="/project">Project</Link>
-                <Link href="/contact">Contact</Link>
+                <h1>Servan PELLÉ</h1>
+                <div id="navbar">
+                    <Link href="/">Home</Link>
+                    <Link href="/about">About</Link>
+                    <Link href="/project">Project</Link>
+                    <Link href="/contact">Contact</Link>
+                </div>
             </header>
         </React.Fragment>
     )
