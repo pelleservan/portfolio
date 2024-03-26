@@ -31,6 +31,11 @@
   src: url('../public/fonts/RobotoMono.ttf'); 
 }
 
+@font-face {
+  font-family: 'roboto-bold'; 
+  src: url('../public/fonts/RobotoMono-Bold.ttf'); 
+}
+
 body {
   color: #0091ff;
   margin: 0;
@@ -62,6 +67,30 @@ header {
   padding: 20px; 
 }
 
+#navbar a {
+  text-decoration: none;
+  position: relative; 
+}
+
+#navbar a:hover {
+  text-decoration: none; 
+}
+
+#navbar a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; 
+  left: 0; 
+  width: 0; 
+  height: 2px; 
+  background-color: #0091ff;
+  transition: width 0.3s ease; 
+}
+
+#navbar a:hover::after {
+  width: 100%; 
+}
+
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -86,7 +115,7 @@ header {
 }
 
 #container p span {
-  font-weight: bold;
+  font-family: 'roboto-bold';
 }
 
 #head-container {
@@ -180,6 +209,7 @@ header {
   width: 100%;
   text-align: center;
   padding: 10px 0;
+  z-index: 1000;
 }
 
 /* @layer utilities {

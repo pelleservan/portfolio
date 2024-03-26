@@ -4,7 +4,7 @@ export default function Footer() {
     return(
         <React.Fragment>
             <footer>
-                <h2>© 2024 Pellé Servan - All right reserved</h2>
+                <h2>© 2024 Pellé Servan - All rights reserved</h2>
             </footer>
         </React.Fragment>
     )

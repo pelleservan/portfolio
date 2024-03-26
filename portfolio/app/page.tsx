@@ -17,7 +17,7 @@ export default function Page() {
           <div id='head-container'>
             <div>
               <h1>Servan PELLÉ - Data Scientist</h1>
-              <p>Wellcome into my portfolio !</p>
+              <p>Welcome to my portfolio !</p>
             </div>
             {/* <Image src="/img/memoji.png" alt="memoji Image" /> */}
             <Image
