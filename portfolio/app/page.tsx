@@ -107,7 +107,7 @@ export default function Page() {
           <hr className="pageDivider" />
 
           <div className="network-container">
-            <Link href="/project/mnist_on_reduced_mnist">
+            <Link href="https://github.com/pelleservan">
                 <div className="container">
                     <Image 
                         src="/img/github.png" 
@@ -119,7 +119,7 @@ export default function Page() {
                     />
                 </div>
             </Link>
-            <Link href="/project/mnist_on_reduced_mnist">
+            <Link href="www.linkedin.com/in/servan-pelle">
                 <div className="container">
                     <Image 
                         src="/img/linkdin.webp" 
