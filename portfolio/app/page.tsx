@@ -119,7 +119,7 @@ export default function Page() {
                     />
                 </div>
             </Link>
-            <Link href="www.linkedin.com/in/servan-pelle">
+            <Link href="https://www.linkedin.com/in/servan-pelle">
                 <div className="container">
                     <Image 
                         src="/img/linkdin.webp" 
