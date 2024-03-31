@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 export default function Page() {
     return (
         <div className={styles.container}>
-            <h1 className={styles.h1}>Machine Learning Projects</h1>
+            <h1 className={styles.projectCathegory}>Machine Learning Projects</h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
                 <div className={styles.projectLink}>
@@ -74,7 +74,7 @@ export default function Page() {
                     </Link>
                 </div>
             </div>
-            <h1>Web Projects</h1>
+            <h1 className={styles.projectCathegory}>Web Projects</h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
                 <div className={styles.projectLink}>
@@ -109,7 +109,7 @@ export default function Page() {
                     </Link>
                 </div>
             </div>
-            <h1>Software Projects</h1>
+            <h1 className={styles.projectCathegory}>Software Projects</h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
                 <div className={styles.projectLink}>
@@ -137,6 +137,8 @@ export default function Page() {
                                 </div>
                                 <div className={styles.competences}>
                                     <span className={styles.competence}>Python</span>
+                                    <span className={styles.competence}>AES</span>
+                                    <span className={styles.competence}>MCV</span>
                                 </div>
                             </div>
                         </div>

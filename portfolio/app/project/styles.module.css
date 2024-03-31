@@ -8,6 +8,11 @@
     margin: auto;
 }
 
+.projectCathegory {
+    font-family: 'roboto-bold';
+    margin: 0;
+}
+
 .pageDivider {
     width: 100%;
     border: 1px solid #0091ff;
@@ -26,6 +31,7 @@
     margin-right: 30px;
     width: 30%;
     transition: transform 0.5s;
+    background-color: #2a2a2a;
 }
 
 .projectLink:hover {
@@ -45,6 +51,7 @@
 
 .projectDescription h2 {
     font-family: 'roboto-bold';
+    color: #0091ff;
 }  
 
 .progressWrapper {
@@ -63,7 +70,7 @@
 
 .progressBar1 {
     height: 100%;
-    background-color: rgb(153, 234, 153);
+    background-color: rgb(48, 205, 48);
     border-radius: 5px;
     width: 90%;
 }
@@ -79,7 +86,7 @@
 
 .progressBar2 {
     height: 100%;
-    background-color: rgb(234, 153, 153);
+    background-color: rgb(228, 83, 83);
     border-radius: 5px;
     width: 30%;
 }
@@ -95,7 +102,7 @@
 
 .progressBar3 {
     height: 100%;
-    background-color: rgb(234, 210, 153);
+    background-color: rgb(239, 184, 55);
     border-radius: 5px;
     width: 50%;
 }
@@ -109,8 +116,8 @@
 }
 
 .competence {
-    border: 2px solid rgb(239, 92, 92); 
-    color: rgb(239, 92, 92);
+    border: 2px solid #0091ff; 
+    color: #0091ff;
     padding: 2px 5px; 
     border-radius: 20px; 
     font-size: 12px;

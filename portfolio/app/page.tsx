@@ -16,12 +16,12 @@ export default function Page() {
 
           <div id='head-container'>
             <div>
-              <h1>Servan PELLÉ - Junior Data Scientist</h1>
+              <h1>PELLÉ Servan - Junior Data Scientist</h1>
               <p>Welcome to my portfolio !</p>
             </div>
             {/* <Image src="/img/memoji.png" alt="memoji Image" /> */}
             <Image
-              src="/img/memoji.png"
+              src="/img/hello.png"
               width={200}
               height={0}
               alt="memoji"
@@ -113,21 +113,21 @@ export default function Page() {
                         src="/img/github.png" 
                         alt="GitHub" 
                         className="image"
-                        height={200}
-                        width={100}
-                        style={{ height: '100px', width: 'auto', objectFit: 'cover'}}
+                        height={96}
+                        width={96}
+                        style={{ height: '96px', width: 'auto', objectFit: 'cover'}}
                     />
                 </div>
             </Link>
             <Link href="https://www.linkedin.com/in/servan-pelle">
                 <div className="container">
                     <Image 
-                        src="/img/linkdin.webp" 
+                        src="/img/linkedin.png" 
                         alt="LinkedIn" 
                         className="image"
-                        height={200}
-                        width={100}
-                        style={{ height: '100px', width: 'auto', objectFit: 'cover'}}
+                        height={500}
+                        width={500}
+                        style={{ height: '96px', width: 'auto', objectFit: 'cover'}}
                     />
                 </div>
             </Link>
