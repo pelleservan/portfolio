@@ -76,6 +76,10 @@ header {
   text-decoration: none; 
 }
 
+#navbar h1:hover {
+  text-decoration: none; 
+}
+
 #navbar a::after {
   content: '';
   position: absolute;
@@ -86,6 +90,18 @@ header {
   background-color: #0091ff;
   transition: width 0.3s ease; 
 }
+
+#navbar h1::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; 
+  left: 0; 
+  width: 0; 
+  height: 2px; 
+  background-color: #0091ff;
+  transition: width 0.3s ease; 
+}
+
 
 #navbar a:hover::after {
   width: 100%; 
@@ -103,6 +119,13 @@ header {
   position: relative;
   margin: 0 auto;
   margin-top: 100px; 
+}
+
+.pageDivider {
+  width: 80%;
+  border: 1px solid #0091ff;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
 #container h1 {
@@ -200,6 +223,19 @@ header {
   border-radius: 10px;
 }
 
+.network-container {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#net-container {
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
 
 #footer {
   position: fixed;
