@@ -68,7 +68,7 @@ export default function Page() {
 
           <div id='sections'>
             <div className="container">
-              <a href="/about" className="link">Resume</a>
+              <a href="/about" className="link">About</a>
               <Image
                 src="/img/cv.jpg"
                 alt="resume Image"
@@ -115,7 +115,7 @@ export default function Page() {
                         className="image"
                         height={96}
                         width={96}
-                        style={{ height: '96px', width: 'auto', objectFit: 'cover'}}
+                        style={{ height: '96px', width: '96px', objectFit: 'cover'}}
                     />
                 </div>
             </Link>
@@ -125,13 +125,14 @@ export default function Page() {
                         src="/img/linkedin.png" 
                         alt="LinkedIn" 
                         className="image"
-                        height={500}
-                        width={500}
-                        style={{ height: '96px', width: 'auto', objectFit: 'cover'}}
+                        height={96}
+                        width={96}
+                        style={{ height: '96px', width: '96px', objectFit: 'cover'}}
                     />
                 </div>
             </Link>
           </div>
+
 
         </div>
 

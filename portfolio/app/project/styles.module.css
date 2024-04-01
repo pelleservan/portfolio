@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'roboto-bold'; 
     src: url('../../public/fonts/RobotoMono-Bold.ttf'); 
-  }
+}
   
 .container {
     width: 80%;

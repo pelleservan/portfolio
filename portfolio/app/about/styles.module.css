@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'poppins-bold'; 
+    src: url('../../public/fonts/Poppins/Poppins-Bold.ttf'); 
+}
+  
+.mainContainer {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.h2 {
+    font-size: 40px;
+    font-family: 'roboto-bold';
+}
+
+.skillContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+/* .techSkillContainer, .areaContainer {
+    width: 30%;
+} */
+
+.areaContainer {
+    margin-bottom: 20px;
+}
+
+.h3 {
+    font-family: 'roboto-bold';
+    color: #007bff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    position: relative; 
+    background-color: #2a2a2a;
+}
+  
+.border {
+    width: 5px;
+    height: 100%;
+    background-color: #007bff;
+    position: absolute; 
+    left: 0; 
+}
+
+.content {
+    margin-left: 15px; 
+    padding: 20px;
+    border-bottom: 2px dashed #545454;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-family: 'roboto-bold';
+    font-size: 30px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #007bff;
+    margin-right: 5px;
+    position: absolute; 
+    left: -7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerCircle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #1a1a1a;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.description h3 {
+    font-size: 30px;
+}

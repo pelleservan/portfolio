@@ -1,0 +1,17 @@
+/* styles.module.css */
+.container {
+    width: 60%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+}
+
+.leftContainer {
+    width: 45%; 
+    position: relative;
+}
+
+.rightContainer {
+    width: 45%; 
+    position: relative;
+}
