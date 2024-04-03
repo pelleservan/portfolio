@@ -74,41 +74,6 @@ export default function Page() {
                     </Link>
                 </div>
             </div>
-            <h1 className={styles.projectCathegory}>Web Projects</h1>
-            <hr className={styles.pageDivider} />
-            <div className={styles.projectsWrapper}>
-                <div className={styles.projectLink}>
-                    <Link href="https://missillac-marine-service.com/">
-                        <div className="project-container">
-                            <div className={styles.imageContainer}>
-                                <Image 
-                                    src="/img/boat.jpg" 
-                                    alt="project Image" 
-                                    className="image"
-                                    layout="fill"
-                                    objectFit="cover"
-                                    style={{ borderRadius: '10px 10px 0 0' }}
-                                />
-                            </div>
-                            <div className={styles.projectDescription}>
-                                <h2>Web Master - Missillac Marine Service</h2>
-                                <p>Managed Missillac Marine Service&#39;s web presence, overseeing needs analysis, and implementing optimal solutions for integration.</p>
-                                <div className={styles.progressWrapper}>
-                                    <p>Completed : </p>
-                                    <div className={styles.progressBar3Container}>
-                                        <div className={styles.progressBar3}></div>
-                                    </div>
-                                    <p>50%</p>
-                                </div>
-                                <div className={styles.competences}>
-                                    <span className={styles.competence}>Angular</span>
-                                    <span className={styles.competence}>OVH</span>
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-                </div>
-            </div>
             <h1 className={styles.projectCathegory}>Software Projects</h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
@@ -139,6 +104,41 @@ export default function Page() {
                                     <span className={styles.competence}>Python</span>
                                     <span className={styles.competence}>AES</span>
                                     <span className={styles.competence}>MCV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+            </div>
+            <h1 className={styles.projectCathegory}>Web Projects</h1>
+            <hr className={styles.pageDivider} />
+            <div className={styles.projectsWrapper}>
+                <div className={styles.projectLink}>
+                    <Link href="https://missillac-marine-service.com/">
+                        <div className="project-container">
+                            <div className={styles.imageContainer}>
+                                <Image 
+                                    src="/img/boat.jpg" 
+                                    alt="project Image" 
+                                    className="image"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    style={{ borderRadius: '10px 10px 0 0' }}
+                                />
+                            </div>
+                            <div className={styles.projectDescription}>
+                                <h2>Web Master - Missillac Marine Service</h2>
+                                <p>Managed Missillac Marine Service&#39;s web presence, overseeing needs analysis, and implementing optimal solutions for integration.</p>
+                                <div className={styles.progressWrapper}>
+                                    <p>Completed : </p>
+                                    <div className={styles.progressBar3Container}>
+                                        <div className={styles.progressBar3}></div>
+                                    </div>
+                                    <p>50%</p>
+                                </div>
+                                <div className={styles.competences}>
+                                    <span className={styles.competence}>Angular</span>
+                                    <span className={styles.competence}>OVH</span>
                                 </div>
                             </div>
                         </div>
