@@ -74,6 +74,40 @@ export default function Page() {
                     </Link>
                 </div>
             </div>
+            <h1 className={styles.projectCathegory}>Dataviz Projects</h1>
+            <hr className={styles.pageDivider} />
+            <div className={styles.projectsWrapper}>
+                <div className={styles.projectLink}>
+                    <Link href="https://github.com/pelleservan/formula1_dashboard.git">
+                        <div className="project-container">
+                            <div className={styles.imageContainer}>
+                                <Image 
+                                    src="/img/f1_performances.png" 
+                                    alt="project Image" 
+                                    className="image"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    style={{ borderRadius: '10px 10px 0 0' }}
+                                />
+                            </div>
+                            <div className={styles.projectDescription}>
+                                <h2>Formula One Dashboard</h2>
+                                <p>Get Formula One data and use it to develop a dashboard</p>
+                                <div className={styles.progressWrapper}>
+                                    <p>Completed : </p>
+                                    <div className={styles.progressBar1Container}>
+                                        <div className={styles.progressBar1}></div>
+                                    </div>
+                                    <p>100%</p>
+                                </div>
+                                <div className={styles.competences}>
+                                    <span className={styles.competence}>Tableau Desktop</span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+            </div>
             <h1 className={styles.projectCathegory}>Software Projects</h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
