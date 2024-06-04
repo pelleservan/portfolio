@@ -74,6 +74,42 @@ export default function Page() {
                     </Link>
                 </div>
             </div>
+            <h1 className={styles.projectCathegory}>Dataviz Analysis Projects</h1>
+            <hr className={styles.pageDivider} />
+            <div className={styles.projectsWrapper}>
+                <div className={styles.projectLink}>
+                    <Link href="https://f1-viz.vercel.app/">
+                        <div className="project-container">
+                            <div className={styles.imageContainer}>
+                                <Image 
+                                    src="/img/f1.jpeg" 
+                                    alt="project Image" 
+                                    className="image"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    style={{ borderRadius: '10px 10px 0 0' }}
+                                />
+                            </div>
+                            <div className={styles.projectDescription}>
+                                <h2>Formula One Data Analysis</h2>
+                                <p>Use Kaggle formula1 dataset to develop web data anlisys and projections.</p>
+                                <div className={styles.progressWrapper}>
+                                    <p>Completed : </p>
+                                    <div className={styles.progressBar2Container}>
+                                        <div className={styles.progressBar2}></div>
+                                    </div>
+                                    <p>100%</p>
+                                </div>
+                                <div className={styles.competences}>
+                                    <span className={styles.competence}>Next.js</span>
+                                    <span className={styles.competence}>React.js</span>
+                                    <span className={styles.competence}>Postgre</span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+            </div>
             <h1 className={styles.projectCathegory}>Dataviz Projects</h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
