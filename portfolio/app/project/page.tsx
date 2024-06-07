@@ -42,6 +42,40 @@ export default function Page() {
                     </Link>
                 </div>
                 <div className={styles.projectLink}>
+                    <Link href="https://github.com/pelleservan/BigDataProject">
+                        <div className="project-container">
+                            <div className={styles.imageContainer}>
+                                <Image 
+                                    src="/img/goblinexam.png" 
+                                    alt="project Image" 
+                                    className="image"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    style={{ borderRadius: '10px 10px 0 0' }}
+                                />
+                            </div>
+                            <div className={styles.projectDescription}>
+                                <h2>Voice Controlled Quiz</h2>
+                                <p>Developing a voice controlled quiz using LSTM neral network and.</p>
+                                <div className={styles.progressWrapper}>
+                                    <p>Completed : </p>
+                                    <div className={styles.progressBar1Container}>
+                                        <div className={styles.progressBar1}></div>
+                                    </div>
+                                    <p>90%</p>
+                                </div>
+                                <div className={styles.competences}>
+                                    <span className={styles.competence}>LSTM</span>
+                                    <span className={styles.competence}>Python</span>
+                                    <span className={styles.competence}>Flask</span>
+                                    <span className={styles.competence}>MySQL</span>
+                                    <span className={styles.competence}>MCV</span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <div className={styles.projectLink}>
                     <Link href="/project/diabetes_prediction">
                         <div className="project-container">
                             <div className={styles.imageContainer}>
@@ -74,7 +108,7 @@ export default function Page() {
                     </Link>
                 </div>
             </div>
-            <h1 className={styles.projectCathegory}>Dataviz Analysis Projects</h1>
+            <h1 className={styles.projectCathegory}>Data Analysis & Dataviz Projects</h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
                 <div className={styles.projectLink}>
@@ -109,10 +143,6 @@ export default function Page() {
                         </div>
                     </Link>
                 </div>
-            </div>
-            <h1 className={styles.projectCathegory}>Dataviz Projects</h1>
-            <hr className={styles.pageDivider} />
-            <div className={styles.projectsWrapper}>
                 <div className={styles.projectLink}>
                     <Link href="https://github.com/pelleservan/formula1_dashboard.git">
                         <div className="project-container">
