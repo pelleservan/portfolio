@@ -19,7 +19,6 @@ export default function Page() {
               <h1>PELLÉ Servan - <span className="post">Junior Data Analyst</span></h1>
               <p>Welcome to my portfolio !</p>
             </div>
-            {/* <Image src="/img/memoji.png" alt="memoji Image" /> */}
             <Image
               src="/img/hello.png"
               width={200}

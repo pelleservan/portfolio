@@ -20,10 +20,6 @@
     margin-bottom: 40px;
 }
 
-/* .techSkillContainer, .areaContainer {
-    width: 30%;
-} */
-
 .areaContainer {
     margin-bottom: 20px;
 }
@@ -90,8 +86,6 @@
 }
 
 .skill {
-    /* background-color: rgba(91, 255, 159, 0.5);
-    color: rgb(91, 255, 159); */
     background-color: rgb(0, 102, 204, 0.5);
     color: rgb(0, 128, 255);
     border-radius: 5px;
@@ -99,8 +93,6 @@
 }
 
 .date {
-    /* background-color: rgba(174, 0, 255, 0.5);
-    color: rgb(214, 133, 252); */
     background-color: rgb(211, 211, 211, 0.5);
     color: rgb(211, 211, 211);
     border-radius: 5px;
@@ -108,8 +100,6 @@
 }
 
 .post {
-    /* background-color: rgba(255, 91, 91, 0.5);
-    color: rgb(255, 91, 91); */
     background-color: rgb(255, 165, 0, 0.5);
     color: rgb(255, 165, 0);
     border-radius: 5px;
@@ -117,8 +107,6 @@
 }
 
 .highlight {
-    /* background-color: rgba(255, 91, 91, 0.5);
-    color: rgb(255, 91, 91); */
     background-color: rgb(0, 123, 255, 0.5);
     color: rgb(114, 180, 250);
     border-radius: 5px;
