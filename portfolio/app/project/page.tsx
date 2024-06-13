@@ -132,7 +132,7 @@ export default function Page() {
                                     <div className={styles.progressBar2Container}>
                                         <div className={styles.progressBar2}></div>
                                     </div>
-                                    <p>100%</p>
+                                    <p>10%</p>
                                 </div>
                                 <div className={styles.competences}>
                                     <span className={styles.competence}>Next.js</span>

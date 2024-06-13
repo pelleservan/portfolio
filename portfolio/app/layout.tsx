@@ -14,7 +14,7 @@ export default function RootLayout({
             <Header></Header>
         </div>
 
-        <div id="container">
+        <div id="container" style={{ height: "100%" }}>
           { children }
         </div>
 
