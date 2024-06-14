@@ -26,9 +26,14 @@ body {
   color: #ffffff;
   margin: 0;
   padding: 0;
-  font-family: 'roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   min-width: 1060px;
-  background-color: #1a1a1a;
+
+  background-image: url('../public/img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 #header {
@@ -94,13 +99,6 @@ header a:hover::after {
   margin-top: 100px; 
 }
 
-.pageDivider {
-  width: 80%;
-  border: 1px solid #0091ff;
-  margin: auto;
-  margin-bottom: 40px;
-}
-
 #container h1 {
   font-size: 30px;
   margin-bottom: 20px;
@@ -119,8 +117,6 @@ header a:hover::after {
 }
 
 .post {
-  /* background-color: rgba(255, 91, 91, 0.5);
-  color: rgb(255, 91, 91); */
   background-color: rgb(255, 165, 0, 0.5);
   color: rgb(255, 165, 0);
   border-radius: 5px;
@@ -190,12 +186,12 @@ header a:hover::after {
   color: white;
 }
 
-#sections .link {
+.link {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100px;
   text-align: center;
-  background-color: rgba(86, 86, 86, 0.432);
+  backdrop-filter: blur(5px);
   z-index: 1;
   display: flex;
   align-items: center; 
@@ -203,31 +199,28 @@ header a:hover::after {
   border-radius: 10px;
 }
 
-#sections .image {
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
+.link::before {
+  content: '';
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  pointer-events: none;
+  transition: border 0.3s ease-in-out;
 }
 
-.network-container {
-  display: flex;
-  justify-content: space-between;
-  width: 30%;
-  margin: auto;
-  margin-bottom: 50px;
-}
-
-#net-container {
-    position: relative;
-    height: 150px;
-    width: 100%;
+.link:hover::before {
+  border: 2px solid rgba(255, 255, 255, 0.8); /* Bordure plus prononcée au survol */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Ombre au survol */
 }
 
 #footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(36, 36, 36, 0.5);
   color: white;
   width: 100%;
   text-align: center;

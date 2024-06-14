@@ -11,7 +11,6 @@ import React from 'react'
 export default function Page() {
   return(
     <React.Fragment>
-
         <div id='container'>
 
           <div id='head-container'>
@@ -41,76 +40,20 @@ export default function Page() {
             </p>
           </div>
 
-          <hr className="pageDivider" />
-
           <div id='sections'>
             <div className="container">
-              <a href="/about" className="link">About</a>
-              <Image
-                src="/img/cv.jpg"
-                alt="resume Image"
-                className="image"
-                height={200}
-                width={100}
-                style={{ height: '200px', width: 'auto', objectFit: 'cover', borderRadius: '10px' }}
-              />
-
+            <Link href="/about" className="link">About</Link> 
             </div>
 
             
             <div className="container">
               <Link href="/project" className="link">Project</Link>
-              <Image 
-                src="/img/project.jpg" 
-                alt="project Image" 
-                className="image"
-                height={200}
-                width={100}
-                style={{ height: '200px', width: 'auto', objectFit: 'cover', borderRadius: '10px' }}/>
             </div>
 
             <div className="container">
               <Link href="/contact" className="link">Contact</Link>
-              <Image 
-                src="/img/contact.jpg" 
-                alt="contact Image" 
-                className="image"
-                height={200}
-                width={100}
-                style={{ height: '200px', width: 'auto', objectFit: 'cover', borderRadius: '10px' }}/>
             </div>
           </div>
-
-          <hr className="pageDivider" />
-
-          <div className="network-container">
-            <Link href="https://github.com/pelleservan">
-                <div className="container">
-                    <Image 
-                        src="/img/github.png" 
-                        alt="GitHub" 
-                        className="image"
-                        height={96}
-                        width={96}
-                        style={{ height: '96px', width: '96px', objectFit: 'cover'}}
-                    />
-                </div>
-            </Link>
-            <Link href="https://www.linkedin.com/in/servan-pelle">
-                <div className="container">
-                    <Image 
-                        src="/img/linkedin.png" 
-                        alt="LinkedIn" 
-                        className="image"
-                        height={96}
-                        width={96}
-                        style={{ height: '96px', width: '96px', objectFit: 'cover'}}
-                    />
-                </div>
-            </Link>
-          </div>
-
-
         </div>
 
     </React.Fragment>
