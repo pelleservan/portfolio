@@ -13,6 +13,10 @@ export default function Page() {
     <React.Fragment>
         <div id='container'>
 
+          <div className='opento'>
+            <h3>open to work 👋</h3>
+          </div>
+
           <div id='head-container'>
             <div>
               <h1>PELLÉ Servan - <span className="post">Junior Data Analyst</span></h1>
@@ -28,11 +32,11 @@ export default function Page() {
 
           </div>
 
-          <div>
-            <p>
+          <div className='main-container'>
+            <p className='text'>
                 I&#39;m a <span className="highlight">Junior Data Analyst</span> deeply passionate about <span className="highlight">data analysis</span> and its applications. With a three-year apprenticeship at <span className="highlight">IMT - Télécom Saint-Étienne</span> and <span className="highlight">STMicroelectronics</span>, I&#39;ve developed a strong foundation in data handling and analysis.
             </p>
-            <p>
+            <p className='text'>
                 Transitioning from a two-year <span className="highlight">CPGE</span> preparatory class, I joined <span className="highlight">IMT - Télécom Saint-Étienne</span> for a <span className="highlight">Data Engineering</span> program. This equipped me with expertise in building data pipelines, databases, and data warehouses, ensuring data availability and quality for analytical processes.
             </p>
             <p>

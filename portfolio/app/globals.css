@@ -29,11 +29,15 @@ body {
   font-family: 'Roboto', sans-serif;
   min-width: 1060px;
 
+  /* Image de fond */
   background-image: url('../public/img/bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+
+  /* Surimpression de couleur sombre */
+  background-color: rgba(0, 0, 0, 0.5); /* Noir avec 50% d'opacité */
 }
 
 #header {
@@ -76,8 +80,8 @@ header a::after {
   bottom: -2px; 
   left: 0; 
   width: 0; 
-  height: 2px; 
-  background-color: #0091ff;
+  height: 3px; 
+  background-color: rgba(224, 121, 255, 0.5);
   transition: width 0.3s ease; 
 }
 
@@ -96,7 +100,24 @@ header a:hover::after {
   height: 100%;
   position: relative;
   margin: 0 auto;
-  margin-top: 100px; 
+  margin-top: 100px;  
+  text-align: center;
+}
+
+.main-container {
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 30px 0;
+  padding: 10px 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0);
+  transition: all 0.3s;
+}
+
+.main-container:hover {
+  border: 2px solid rgba(255, 255, 255);
+  box-shadow: 0 0 20px rgba(224, 121, 255, 0.5);
 }
 
 #container h1 {
@@ -105,22 +126,45 @@ header a:hover::after {
 }
 
 #container p {
-  margin-bottom: 40px;
   text-align: justify;
 }
 
 #container p .highlight {
-  background-color: rgb(0, 123, 255, 0.5);
-  color: rgb(114, 180, 250);
+  background-color: rgba(224, 121, 255, 0.5);
+  /* color: rgb(195, 0, 255); */
   border-radius: 5px;
   padding: 0 5px;
 }
 
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px); /* Ajustez cette valeur selon l'amplitude souhaitée */
+  }
+}
+
+.opento {
+  border: 2px solid rgb(88, 230, 88);
+  border-radius: 18px;
+  background-color: rgba(88, 230, 88, 0.5);
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  display: inline-block;
+  animation: moveUpDown 2s ease-in-out infinite; /* Durée de l'animation et répétition infinie */
+}
+
+
 .post {
-  background-color: rgb(255, 165, 0, 0.5);
-  color: rgb(255, 165, 0);
-  border-radius: 5px;
-  padding: 0 5px;
+  background-color: rgba(224, 121, 255, 0.5);
+  /* color: rgb(255, 165, 0); */
+  border-radius: 15px;
+  padding: 0 10px;
 }
 
 #head-container {
@@ -145,6 +189,10 @@ header a:hover::after {
   position: absolute;
   right: 0;
   top: -50px;
+}
+
+.text {
+  margin-bottom: 40px;
 }
 
 #sections {
@@ -196,7 +244,8 @@ header a:hover::after {
   display: flex;
   align-items: center; 
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 15px;
+  border: 0.5px solid;
 }
 
 .link::before {
@@ -221,6 +270,7 @@ header a:hover::after {
   bottom: 0;
   left: 0;
   background-color: rgb(36, 36, 36, 0.5);
+  backdrop-filter: blur(5px);
   color: white;
   width: 100%;
   text-align: center;

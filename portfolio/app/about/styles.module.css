@@ -7,26 +7,46 @@
     width: 80%;
     margin: auto;
     margin-bottom: 50px;
+    font-family: 'roboto-bold';
+    text-align: left;
+}
+
+.h1 {
+    font-size: 40px;
+    font-family: 'roboto-bold';
 }
 
 .h2 {
-    font-size: 40px;
-    font-family: 'roboto-bold';
+    font-size: 20px;
 }
 
 .skillContainer {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.techSkillContainer {
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 .areaContainer {
     margin-bottom: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 .h3 {
     font-family: 'roboto-bold';
-    color: #007bff;
+    color: rgba(224, 121, 255);
+    text-align: left;
 }
 
 .container {
@@ -34,22 +54,30 @@
     align-items: center;
     position: relative; 
     /* background-color: #2a2a2a; */
-    background-color: rgb(42, 42, 42, 0.5);
+    /* background-color: rgb(42, 42, 42, 0.5); */
+    /* backdrop-filter: blur(5px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); */
+}
+
+.abcontainer {
+    border-radius: 0 15px 15px 0;
     backdrop-filter: blur(5px);
+    /* background-color: rgb(42, 42, 42, 0.5); */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
   
 .border {
     width: 5px;
     height: 100%;
-    background-color: #007bff;
+    background-color: rgba(224, 121, 255);
     position: absolute; 
     left: 0; 
 }
 
 .content {
-    margin-left: 15px; 
+    margin: 0 15px; 
     padding: 20px;
-    border-bottom: 2px dashed #545454;
+    border-bottom: 2px dashed #ffffff;
 }
 
 .title {
@@ -63,7 +91,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #007bff;
+    background-color: rgba(224, 121, 255);
     margin-right: 5px;
     position: absolute; 
     left: -7.5px;
@@ -83,36 +111,37 @@
 
 .description {
     margin-top: 20px;
+    transition: transform 0.3s;
 }
 
 .description h3 {
     font-size: 30px;
 }
 
+.description:hover {
+    transform: translateX(30px);
+}
+
 .skill {
-    background-color: rgb(0, 102, 204, 0.5);
-    color: rgb(0, 128, 255);
+    background-color: rgba(224, 121, 255, 0.5);
     border-radius: 5px;
     padding: 0 5px;
 }
 
 .date {
     background-color: rgb(211, 211, 211, 0.5);
-    color: rgb(211, 211, 211);
     border-radius: 5px;
     padding: 0 5px;
 }
 
 .post {
-    background-color: rgb(255, 165, 0, 0.5);
-    color: rgb(255, 165, 0);
+    background-color: rgba(0, 247, 255, 0.5);
     border-radius: 5px;
     padding: 0 5px;
 }
 
 .highlight {
-    background-color: rgb(0, 123, 255, 0.5);
-    color: rgb(114, 180, 250);
+    background-color: rgba(224, 121, 255, 0.5);
     border-radius: 5px;
     padding: 0 5px;
 }
