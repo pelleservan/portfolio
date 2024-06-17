@@ -30,7 +30,7 @@ body {
   min-width: 1060px;
 
   /* Image de fond */
-  background-image: url('../public/img/bg.jpg');
+  background-image: url('../public/img/bg1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -81,7 +81,7 @@ header a::after {
   left: 0; 
   width: 0; 
   height: 3px; 
-  background-color: rgba(224, 121, 255, 0.5);
+  background-color: rgba(255, 213, 0, 0.5);
   transition: width 0.3s ease; 
 }
 
@@ -117,7 +117,7 @@ header a:hover::after {
 
 .main-container:hover {
   border: 2px solid rgba(255, 255, 255);
-  box-shadow: 0 0 20px rgba(224, 121, 255, 0.5);
+  box-shadow: 0 0 20px rgba(255, 213, 0, 0.5);
 }
 
 #container h1 {
@@ -130,7 +130,7 @@ header a:hover::after {
 }
 
 #container p .highlight {
-  background-color: rgba(224, 121, 255, 0.5);
+  background-color: rgba(255, 213, 0, 0.5);
   /* color: rgb(195, 0, 255); */
   border-radius: 5px;
   padding: 0 5px;
@@ -161,7 +161,7 @@ header a:hover::after {
 
 
 .post {
-  background-color: rgba(224, 121, 255, 0.5);
+  background-color: rgba(255, 213, 0, 0.5);
   /* color: rgb(255, 165, 0); */
   border-radius: 15px;
   padding: 0 10px;

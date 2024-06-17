@@ -19,7 +19,7 @@ export default function Page() {
 
           <div id='head-container'>
             <div>
-              <h1>PELLÉ Servan - <span className="post">Junior Data Analyst</span></h1>
+              <h1>PELLÉ Servan - <span className="post"><span className="balise">&lt;</span>Junior Data Analyst<span>{'/>'}</span></span></h1>
               <p>Welcome to my portfolio !</p>
             </div>
             <Image

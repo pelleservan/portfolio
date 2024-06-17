@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 export default function Page() {
     return (
         <div className={styles.mainContainer}>
-            <h1 className={styles.h1}>About Me</h1>
+            <h1 className={styles.h1}><span className="balise">&lt;</span>About Me<span>{'/>'}</span></h1>
             <h2 className={styles.h2}>Hey everyone 👋 !</h2>
             <div className="main-container">
                 <p className='text'>I&#39;m Servan Pellé, a data enthusiast and aspiring <span className={styles.highlight}>Junior Data Scientist</span>. My passion for data analysis and its vast possibilities drives me to seek employment in this field.</p>
@@ -13,7 +13,8 @@ export default function Page() {
             </div>
             <div className={styles.skillContainer}>
                 <div className={styles.techSkillContainer}>
-                    <h2 className={styles.title}>Technical Skills</h2>
+                    <h2 className={styles.title}><span className="balise">&lt;</span>Technical Skills<span>{'/>'}</span></h2>
+                    <br></br>
                     <div>
                         <h3 className={styles.h3}>🧠 Machine Learning Frameworks</h3>
                         <p>PyTorch, TensorFlow, Keras, Scikit-Learn</p>
@@ -41,7 +42,8 @@ export default function Page() {
                 </div>
                 <div>
                     <div className={styles.areaContainer}>
-                        <h2 className={styles.title}>Area of Expertise</h2>
+                        <h2 className={styles.title}><span className="balise">&lt;</span>Area of Expertise<span>{'/>'}</span></h2>
+                        <br></br>
                         <div>
                             <h3 className={styles.h3}>📊 Data Science & Statistics</h3>
                         </div>
@@ -56,7 +58,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className={styles.areaContainer}>
-                        <h2 className={styles.title}>Hobbies</h2>
+                        <h2 className={styles.title}><span className="balise">&lt;</span>Hobbies<span>{'/>'}</span></h2>
+                        <br></br>
                         <div>
                             <h3 className={styles.h3}>🎸 Playing & Listening Music</h3>
                         </div>
@@ -80,7 +83,7 @@ export default function Page() {
                             <span className={styles.circle}>
                                 <span className={styles.innerCircle}></span>
                             </span> 
-                            Article
+                            <span className="balise">&lt;</span>Article<span>{'/>'}</span>
                         </h2>
                         <p className={styles.description}>
                             <h3>📑 Analytical Model of SRAM Min to Predict Reliability and Process Impact</h3>
@@ -100,7 +103,7 @@ export default function Page() {
                             <span className={styles.circle}>
                                 <span className={styles.innerCircle}></span>
                             </span> 
-                            Education
+                            <span className="balise">&lt;</span>Education<span>{'/>'}</span>
                         </h2>
                         <p className={styles.description}>
                             <h3>🏫 Institut Mines-Télécom - Télécom Saint-Étienne</h3>
@@ -129,7 +132,7 @@ export default function Page() {
                             <span className={styles.circle}>
                                 <span className={styles.innerCircle}></span>
                             </span> 
-                            Work Experience
+                            <span className="balise">&lt;</span>Work Experience<span>{'/>'}</span>
                         </h2>
                         <p className={styles.description}>
                             <h3>💪🏻 Peaceful Productivity Coach</h3>

@@ -16,7 +16,7 @@
 
 .pageDivider {
     width: 100%;
-    border: 1px solid rgba(224, 121, 255, 0.5);
+    border: 1px solid rgba(255, 213, 0, 0.5);
 }
 
 .projectsWrapper {
@@ -54,7 +54,7 @@
 
 .projectDescription h2 {
     font-family: 'roboto-bold';
-    color: rgba(224, 121, 255);
+    color: rgba(255, 213, 0);
 }  
 
 .progressWrapper {
@@ -119,8 +119,8 @@
 }
 
 .competence {
-    border: 2px solid rgb(224, 121, 255); 
-    color: rgb(224, 121, 255);
+    border: 2px solid rgb(255, 213, 0); 
+    color: rgb(255, 213, 0);
     padding: 2px 5px; 
     border-radius: 20px; 
     font-size: 12px;

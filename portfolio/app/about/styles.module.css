@@ -33,6 +33,13 @@
     backdrop-filter: blur(5px);
     padding: 10px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: all 0.3s;
+}
+
+.techSkillContainer:hover {
+  border: 2px solid rgba(255, 255, 255);
+  box-shadow: 0 0 20px rgba(255, 213, 0, 0.5);
 }
 
 .areaContainer {
@@ -41,11 +48,18 @@
     backdrop-filter: blur(5px);
     padding: 10px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: all 0.3s;
+}
+
+.areaContainer:hover {
+  border: 2px solid rgba(255, 255, 255);
+  box-shadow: 0 0 20px rgba(255, 213, 0, 0.5);
 }
 
 .h3 {
     font-family: 'roboto-bold';
-    color: rgba(224, 121, 255);
+    color: rgb(255, 213, 0);
     text-align: left;
 }
 
@@ -69,7 +83,7 @@
 .border {
     width: 5px;
     height: 100%;
-    background-color: rgba(224, 121, 255);
+    background-color: rgba(255, 213, 0);
     position: absolute; 
     left: 0; 
 }
@@ -91,7 +105,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: rgba(224, 121, 255);
+    background-color: rgba(255, 213, 0);
     margin-right: 5px;
     position: absolute; 
     left: -7.5px;
@@ -123,7 +137,7 @@
 }
 
 .skill {
-    background-color: rgba(224, 121, 255, 0.5);
+    background-color: rgba(255, 213, 0, 0.5);
     border-radius: 5px;
     padding: 0 5px;
 }
@@ -141,7 +155,7 @@
 }
 
 .highlight {
-    background-color: rgba(224, 121, 255, 0.5);
+    background-color: rgba(255, 213, 0, 0.5);
     border-radius: 5px;
     padding: 0 5px;
 }

@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 export default function Page() {
     return (
         <div className={styles.container}>
-            <h1 className={styles.projectCathegory}>Machine Learning Projects</h1>
+            <h1 className={styles.projectCathegory}><span className="balise">&lt;</span>Machine Learning Projects<span>{'/>'}</span></h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
                 <div className={styles.projectLink}>
@@ -23,7 +23,7 @@ export default function Page() {
                                 />
                             </div>
                             <div className={styles.projectDescription}>
-                                <h2>CNN on Reduced MNIST</h2>
+                                <h2><span className="balise">&lt;</span>CNN on Reduced MNIST<span>{'/>'}</span></h2>
                                 <p>Developing a Convolutional Neural Network (CNN) model to classify MNIST dataset images using only 100 labeled samples.</p>
                                 <div className={styles.progressWrapper}>
                                     <p>Completed : </p>
@@ -55,7 +55,7 @@ export default function Page() {
                                 />
                             </div>
                             <div className={styles.projectDescription}>
-                                <h2>Voice Controlled Quiz</h2>
+                                <h2><span className="balise">&lt;</span>Voice Controlled Quiz<span>{'/>'}</span></h2>
                                 <p>Developing a voice controlled quiz using LSTM neral network and.</p>
                                 <div className={styles.progressWrapper}>
                                     <p>Completed : </p>
@@ -89,7 +89,7 @@ export default function Page() {
                                 />
                             </div>
                             <div className={styles.projectDescription}>
-                                <h2>Diabetes Prediction</h2>
+                                <h2><span className="balise">&lt;</span>Diabetes Prediction<span>{'/>'}</span></h2>
                                 <p>Building a Support Vector Machine (SVM) model to predict diabetes diagnosis.</p>
                                 <div className={styles.progressWrapper}>
                                     <p>Completed : </p>
@@ -108,7 +108,7 @@ export default function Page() {
                     </Link>
                 </div>
             </div>
-            <h1 className={styles.projectCathegory}>Data Analysis & Dataviz Projects</h1>
+            <h1 className={styles.projectCathegory}><span className="balise">&lt;</span>Data Analysis & Dataviz Projects<span>{'/>'}</span></h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
                 <div className={styles.projectLink}>
@@ -125,7 +125,7 @@ export default function Page() {
                                 />
                             </div>
                             <div className={styles.projectDescription}>
-                                <h2>Formula One Data Analysis</h2>
+                                <h2><span className="balise">&lt;</span>Formula One Data Analysis<span>{'/>'}</span></h2>
                                 <p>Use Kaggle formula1 dataset to develop web data anlisys and projections.</p>
                                 <div className={styles.progressWrapper}>
                                     <p>Completed : </p>
@@ -157,7 +157,7 @@ export default function Page() {
                                 />
                             </div>
                             <div className={styles.projectDescription}>
-                                <h2>Formula One Dashboard</h2>
+                                <h2><span className="balise">&lt;</span>Formula One Dashboard<span>{'/>'}</span></h2>
                                 <p>Get Formula One data and use it to develop a dashboard</p>
                                 <div className={styles.progressWrapper}>
                                     <p>Completed : </p>
@@ -174,7 +174,7 @@ export default function Page() {
                     </Link>
                 </div>
             </div>
-            <h1 className={styles.projectCathegory}>Software Projects</h1>
+            <h1 className={styles.projectCathegory}><span className="balise">&lt;</span>Software Projects<span>{'/>'}</span></h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
                 <div className={styles.projectLink}>
@@ -191,7 +191,7 @@ export default function Page() {
                                 />
                             </div>
                             <div className={styles.projectDescription}>
-                                <h2>AES Encryption</h2>
+                                <h2><span className="balise">&lt;</span>AES Encryption<span>{'/>'}</span></h2>
                                 <p>Python-based AES encryption project with GUI for secure message encryption and decryption.</p>
                                 <div className={styles.progressWrapper}>
                                     <p>Completed : </p>
@@ -210,7 +210,7 @@ export default function Page() {
                     </Link>
                 </div>
             </div>
-            <h1 className={styles.projectCathegory}>Web Projects</h1>
+            <h1 className={styles.projectCathegory}><span className="balise">&lt;</span>Web Projects<span>{'/>'}</span></h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
                 <div className={styles.projectLink}>
@@ -227,7 +227,7 @@ export default function Page() {
                                 />
                             </div>
                             <div className={styles.projectDescription}>
-                                <h2>Web Master - Missillac Marine Service</h2>
+                                <h2><span className="balise">&lt;</span>Web Master - Missillac Marine Service<span>{'/>'}</span></h2>
                                 <p>Managed Missillac Marine Service&#39;s web presence, overseeing needs analysis, and implementing optimal solutions for integration.</p>
                                 <div className={styles.progressWrapper}>
                                     <p>Completed : </p>

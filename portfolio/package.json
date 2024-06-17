@@ -17,6 +17,7 @@
     "react-dom": "^18",
     "react-iframe": "^1.8.5",
     "shadergradient": "^1.2.5",
+    "styled-jsx": "^5.1.6",
     "three": "^0.160.1"
   },
   "devDependencies": {
