@@ -170,6 +170,7 @@ header a:hover::after {
 #head-container {
   display: flex;
   justify-content: space-between;
+  text-align: left;
 }
 
 #head-container h1 {

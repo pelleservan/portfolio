@@ -231,8 +231,8 @@ export default function Page() {
                                 <p>Managed Missillac Marine Service&#39;s web presence, overseeing needs analysis, and implementing optimal solutions for integration.</p>
                                 <div className={styles.progressWrapper}>
                                     <p>Completed : </p>
-                                    <div className={styles.progressBar3Container}>
-                                        <div className={styles.progressBar3}></div>
+                                    <div className={styles.progressBar1Container}>
+                                        <div className={styles.progressBar1}></div>
                                     </div>
                                     <p>50%</p>
                                 </div>
