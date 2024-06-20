@@ -75,7 +75,7 @@ export default function Page() {
                         </div>
                     </Link>
                 </div>
-                <div className={styles.projectLink}>
+                {/* <div className={styles.projectLink}>
                     <Link href="/project/diabetes_prediction">
                         <div className="project-container">
                             <div className={styles.imageContainer}>
@@ -106,7 +106,7 @@ export default function Page() {
                             </div>
                         </div>
                     </Link>
-                </div>
+                </div> */}
             </div>
             <h1 className={styles.projectCathegory}><span className="balise">&lt;</span>Data Analysis & Dataviz Projects<span>{'/>'}</span></h1>
             <hr className={styles.pageDivider} />
@@ -237,7 +237,7 @@ export default function Page() {
                                     <p>50%</p>
                                 </div>
                                 <div className={styles.competences}>
-                                    <span className={styles.competence}>Angular</span>
+                                    <span className={styles.competence}>Vue</span>
                                     <span className={styles.competence}>OVH</span>
                                 </div>
                             </div>
