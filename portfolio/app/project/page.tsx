@@ -218,7 +218,7 @@ export default function Page() {
                         <div className="project-container">
                             <div className={styles.imageContainer}>
                                 <Image 
-                                    src="/img/boat.jpg" 
+                                    src="/img/boat.png" 
                                     alt="project Image" 
                                     className="image"
                                     layout="fill"
