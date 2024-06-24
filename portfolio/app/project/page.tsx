@@ -218,7 +218,7 @@ export default function Page() {
                         <div className="project-container">
                             <div className={styles.imageContainer}>
                                 <Image 
-                                    src="/img/boat.png" 
+                                    src="/img/boat.jpg" 
                                     alt="project Image" 
                                     className="image"
                                     layout="fill"
@@ -231,10 +231,10 @@ export default function Page() {
                                 <p>Managed Missillac Marine Service&#39;s web presence, overseeing needs analysis, and implementing optimal solutions for integration.</p>
                                 <div className={styles.progressWrapper}>
                                     <p>Completed : </p>
-                                    <div className={styles.progressBar1Container}>
-                                        <div className={styles.progressBar1}></div>
+                                    <div className={styles.progressBar4Container}>
+                                        <div className={styles.progressBar4}></div>
                                     </div>
-                                    <p>50%</p>
+                                    <p>100%</p>
                                 </div>
                                 <div className={styles.competences}>
                                     <span className={styles.competence}>Vue</span>

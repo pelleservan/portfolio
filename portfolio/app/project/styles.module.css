@@ -110,6 +110,22 @@
     width: 50%;
 }
 
+.progressBar4Container {
+    width: 100px; 
+    height: 10px; 
+    margin-top: 8px;
+    margin-right: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.progressBar4 {
+    height: 100%;
+    background-color: rgb(48, 205, 48);
+    border-radius: 5px;
+    width: 100%;
+}
+
 .progressWrapper p {
     margin-right: 10px;
 }
