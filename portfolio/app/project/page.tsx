@@ -5,6 +5,21 @@ import styles from "./styles.module.css";
 
 export default function Page() {
     return (
+        <html>
+        <head>
+            <meta charSet="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Pelle-Servan-Portfolio</title>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJRXTHCP3W"></script>
+                <script dangerouslySetInnerHTML={{
+                __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-VJRXTHCP3W');
+                `,
+                }} />
+        </head>
         <div className={styles.container}>
             <h1 className={styles.projectCathegory}><span className="balise">&lt;</span>Machine Learning Projects<span>{'/>'}</span></h1>
             <hr className={styles.pageDivider} />
@@ -246,6 +261,7 @@ export default function Page() {
                 </div>
             </div>
         </div>
+        </html>
     );
 }
   

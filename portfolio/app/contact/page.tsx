@@ -5,6 +5,21 @@ import styles from "./styles.module.css";
 
 export default function Page() {
     return (
+        <html>
+        <head>
+            <meta charSet="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Pelle-Servan-Portfolio</title>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJRXTHCP3W"></script>
+                <script dangerouslySetInnerHTML={{
+                __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-VJRXTHCP3W');
+                `,
+                }} />
+        </head>
         <div className={styles.container}>
             <div className={styles.leftContainer}>
                 <h1>Contact Me !</h1>
@@ -34,5 +49,6 @@ export default function Page() {
                 />
             </div>
         </div>
+        </html>
     );
 }
