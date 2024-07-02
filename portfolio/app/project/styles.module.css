@@ -2,16 +2,25 @@
     font-family: 'roboto-bold'; 
     src: url('../../public/fonts/RobotoMono-Bold.ttf'); 
 }
+
+@font-face {
+    font-family: 'roboto-mono'; 
+    src: url('../../public/fonts/RobotoMono.ttf'); 
+}
   
 .container {
     width: 80%;
     margin: auto;
     text-align: left;
+    color: white;
+    font-family: 'roboto-mono';
 }
 
 .projectCathegory {
     font-family: 'roboto-bold';
     margin: 0;
+    color: rgba(255, 213, 0);
+    font-size: 30px;
 }
 
 .pageDivider {
@@ -31,14 +40,17 @@
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
     margin-right: 30px;
     width: 30%;
-    transition: transform 0.5s;
+    transition: all 0.5s;
     /* background-color: rgb(42, 42, 42, 0.5); */
     backdrop-filter: blur(5px);
     min-width: 340px;
+    border: 2px solid rgba(255, 255, 255, 0);
 }
 
 .projectLink:hover {
     transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(255, 213, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255);
 }
 
 .imageContainer {

@@ -21,6 +21,72 @@ export default function Page() {
                 }} />
         </head>
         <div className={styles.container}>
+            <h1 className={styles.projectCathegory}><span className="balise">&lt;</span>Data Analysis & Dataviz Projects<span>{'/>'}</span></h1>
+            <hr className={styles.pageDivider} />
+            <div className={styles.projectsWrapper}>
+                <div className={styles.projectLink}>
+                    <Link href="https://f1-viz.vercel.app/">
+                        <div className="project-container">
+                            <div className={styles.imageContainer}>
+                                <Image 
+                                    src="/img/f1.jpeg" 
+                                    alt="project Image" 
+                                    className="image"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    style={{ borderRadius: '10px 10px 0 0' }}
+                                />
+                            </div>
+                            <div className={styles.projectDescription}>
+                                <h2><span className="balise">&lt;</span>Full-Stack Formula One Data Analysis<span>{'/>'}</span></h2>
+                                <p>Use Kaggle formula1 dataset to develop web data anlisys and projections.</p>
+                                <div className={styles.progressWrapper}>
+                                    <p>Completed : </p>
+                                    <div className={styles.progressBar2Container}>
+                                        <div className={styles.progressBar2}></div>
+                                    </div>
+                                    <p>10%</p>
+                                </div>
+                                <div className={styles.competences}>
+                                    <span className={styles.competence}>Next.js</span>
+                                    <span className={styles.competence}>React.js</span>
+                                    <span className={styles.competence}>Postgre</span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <div className={styles.projectLink}>
+                    <Link href="https://github.com/pelleservan/formula1_dashboard.git">
+                        <div className="project-container">
+                            <div className={styles.imageContainer}>
+                                <Image 
+                                    src="/img/f1_performances.png" 
+                                    alt="project Image" 
+                                    className="image"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    style={{ borderRadius: '10px 10px 0 0' }}
+                                />
+                            </div>
+                            <div className={styles.projectDescription}>
+                                <h2><span className="balise">&lt;</span>Formula One Tableau Dashboard<span>{'/>'}</span></h2>
+                                <p>Get Formula One data and use it to develop a dashboard</p>
+                                <div className={styles.progressWrapper}>
+                                    <p>Completed : </p>
+                                    <div className={styles.progressBar1Container}>
+                                        <div className={styles.progressBar1}></div>
+                                    </div>
+                                    <p>100%</p>
+                                </div>
+                                <div className={styles.competences}>
+                                    <span className={styles.competence}>Tableau Desktop</span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+            </div>
             <h1 className={styles.projectCathegory}><span className="balise">&lt;</span>Machine Learning Projects<span>{'/>'}</span></h1>
             <hr className={styles.pageDivider} />
             <div className={styles.projectsWrapper}>
@@ -122,72 +188,6 @@ export default function Page() {
                         </div>
                     </Link>
                 </div> */}
-            </div>
-            <h1 className={styles.projectCathegory}><span className="balise">&lt;</span>Data Analysis & Dataviz Projects<span>{'/>'}</span></h1>
-            <hr className={styles.pageDivider} />
-            <div className={styles.projectsWrapper}>
-                <div className={styles.projectLink}>
-                    <Link href="https://f1-viz.vercel.app/">
-                        <div className="project-container">
-                            <div className={styles.imageContainer}>
-                                <Image 
-                                    src="/img/f1.jpeg" 
-                                    alt="project Image" 
-                                    className="image"
-                                    layout="fill"
-                                    objectFit="cover"
-                                    style={{ borderRadius: '10px 10px 0 0' }}
-                                />
-                            </div>
-                            <div className={styles.projectDescription}>
-                                <h2><span className="balise">&lt;</span>Formula One Data Analysis<span>{'/>'}</span></h2>
-                                <p>Use Kaggle formula1 dataset to develop web data anlisys and projections.</p>
-                                <div className={styles.progressWrapper}>
-                                    <p>Completed : </p>
-                                    <div className={styles.progressBar2Container}>
-                                        <div className={styles.progressBar2}></div>
-                                    </div>
-                                    <p>10%</p>
-                                </div>
-                                <div className={styles.competences}>
-                                    <span className={styles.competence}>Next.js</span>
-                                    <span className={styles.competence}>React.js</span>
-                                    <span className={styles.competence}>Postgre</span>
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-                </div>
-                <div className={styles.projectLink}>
-                    <Link href="https://github.com/pelleservan/formula1_dashboard.git">
-                        <div className="project-container">
-                            <div className={styles.imageContainer}>
-                                <Image 
-                                    src="/img/f1_performances.png" 
-                                    alt="project Image" 
-                                    className="image"
-                                    layout="fill"
-                                    objectFit="cover"
-                                    style={{ borderRadius: '10px 10px 0 0' }}
-                                />
-                            </div>
-                            <div className={styles.projectDescription}>
-                                <h2><span className="balise">&lt;</span>Formula One Dashboard<span>{'/>'}</span></h2>
-                                <p>Get Formula One data and use it to develop a dashboard</p>
-                                <div className={styles.progressWrapper}>
-                                    <p>Completed : </p>
-                                    <div className={styles.progressBar1Container}>
-                                        <div className={styles.progressBar1}></div>
-                                    </div>
-                                    <p>100%</p>
-                                </div>
-                                <div className={styles.competences}>
-                                    <span className={styles.competence}>Tableau Desktop</span>
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-                </div>
             </div>
             <h1 className={styles.projectCathegory}><span className="balise">&lt;</span>Software Projects<span>{'/>'}</span></h1>
             <hr className={styles.pageDivider} />
