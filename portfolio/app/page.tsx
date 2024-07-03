@@ -51,7 +51,7 @@ export default function Page() {
 
             
             <div className="container">
-              <Link href="/project" className="link">Project</Link>
+              <Link href="/project" className="link">Projects</Link>
             </div>
 
             <div className="container">
