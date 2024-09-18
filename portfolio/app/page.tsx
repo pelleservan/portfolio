@@ -12,11 +12,7 @@ export default function Page() {
   return(
     <React.Fragment>
         <div id='container'>
-         <!--
-          <div className='opento'>
-            <h3>open to work 👋</h3>
-          </div>
-         -->
+         <!-- <div className='opento'> <h3>open to work 👋</h3> </div> -->
           <div id='head-container'>
             <div>
               <h1>PELLÉ Servan - <span className="post"><span className="balise">&lt;</span>Business Analyst<span>{'/>'}</span></span></h1>
