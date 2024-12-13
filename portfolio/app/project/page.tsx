@@ -260,6 +260,39 @@ export default function Page() {
                     </Link>
                 </div>
             </div>
+            <div className={styles.projectsWrapper}>
+                <div className={styles.projectLink}>
+                    <Link href="https://amantiquewebsite.vercel.app/">
+                        <div className="project-container">
+                            <div className={styles.imageContainer}>
+                                <Image 
+                                    src="/img/amantique.jpeg" 
+                                    alt="project Image" 
+                                    className="image"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    style={{ borderRadius: '10px 10px 0 0' }}
+                                />
+                            </div>
+                            <div className={styles.projectDescription}>
+                                <h2><span className="balise">&lt;</span>Web Master - Amantique<span>{'/>'}</span></h2>
+                                <p>Amantique&#39;s web presence, overseeing needs analysis, and implementing optimal solutions for integration.</p>
+                                <div className={styles.progressWrapper}>
+                                    <p>Completed : </p>
+                                    <div className={styles.progressBar4Container}>
+                                        <div className={styles.progressBar4}></div>
+                                    </div>
+                                    <p>100%</p>
+                                </div>
+                                <div className={styles.competences}>
+                                    <span className={styles.competence}>Next</span>
+                                    <span className={styles.competence}>Vercel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+            </div>
         </div>
         </html>
     );
