@@ -262,7 +262,7 @@ export default function Page() {
             </div>
             <div className={styles.projectsWrapper}>
                 <div className={styles.projectLink}>
-                    <Link href="https://amantiquewebsite.vercel.app/">
+                    <Link href="https://amantique-website.vercel.app/">
                         <div className="project-container">
                             <div className={styles.imageContainer}>
                                 <Image 
